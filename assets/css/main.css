@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+}
+
+#game canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.dialog-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.settings-bar {
+    width: 125px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20;
+    right: 20;
+}
+
+.settings-bar .settings-btn .icon,
+.settings-bar .sound-btn .icon {
+    width: 40;
+    height: 40;
+}
+
+.settings-bar .sound-btn .icon {
+    filter: invert();
+}
